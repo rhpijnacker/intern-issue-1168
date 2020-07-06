@@ -1,0 +1,20 @@
+{
+  "loader": {
+    "script": "dojo",
+    "options": {
+      "has": {
+        "dojo-undef-api": true
+      },
+      "packages": [
+        { "name": "app", "location": "app" },
+        { "name": "dojo", "location": "node_modules/dojo" }
+      ]
+    }
+  },
+  "suites": "app/tests.all",
+  "environments": {
+    "browserName": "chrome",
+    "fixSessionCapabilities": "no-detect"
+  },
+  "coverage": ["app/src.js"]
+}
