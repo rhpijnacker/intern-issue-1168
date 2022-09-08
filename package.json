@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "dojo": "^1.16.3",
-    "intern": "^4.8.7"
+    "intern": "^4.10.1"
   },
   "scripts": {
     "intern": "intern"
